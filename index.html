@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conversor PDF DOC grátis e converter PNG JPEG online gratuitamente. FileConverter Pro ilimitado.">
+  <meta name="keywords" content="conversor PDF DOC grátis, converter PNG JPEG online, converter DOC para PDF grátis">
+  <meta name="author" content="FileConverter Pro">
+  <title>FileConverter Pro - Conversor PDF DOC Grátis</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google AdSense (SUBSTITUA PELO SEU CÓDIGO REAL) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+
+  <!-- Banner Topo -->
+  <div class="top-ad">
+    <p>Banner Google AdSense 728x90</p>
+  </div>
+
+  <header>
+    <div class="logo">FileConverter Pro</div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#converter">Converter</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Conversor PDF DOC Grátis</h1>
+    <p>Faça upload do seu arquivo PDF ou imagem e converta gratuitamente!</p>
+  </section>
+
+  <section id="converter" class="converter">
+    <div class="card">
+      <input type="file" id="fileInput" />
+      
+      <select id="conversionType">
+        <option value="pdfToDoc">PDF → DOCX</option>
+        <option value="docToPdf">DOCX → PDF</option>
+        <option value="pngToJpg">PNG → JPEG</option>
+        <option value="jpgToPng">JPEG → PNG</option>
+      </select>
+
+      <button id="convertBtn">Converter</button>
+      <a id="downloadLink" style="display:none;">Baixar Arquivo</a>
+    </div>
+  </section>
+
+  <!-- Anúncio Pós Conversão -->
+  <div id="conversionAd" class="popup-ad">
+    <div class="popup-content">
+      <p>Anúncio patrocinado</p>
+      <button onclick="closeAd()">Continuar para Download</button>
+    </div>
+  </div>
+
+  <footer id="termos">
+    <p>© 2026 FileConverter Pro</p>
+    <p>Contato: suporte@fileconverterpro.com</p>
+    <p>Todos os arquivos são processados no seu navegador. Não armazenamos dados.</p>
+  </footer>
+
+  <!-- Bibliotecas -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/docx/7.8.2/docx.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
